@@ -1,0 +1,39 @@
+// app global css in SCSS form
+.text-grand-hotel{
+font-family: 'Grand Hotel', 'roboto', 'helveticaa neue', helvetica, arial, sans-serif
+}
+
+.small-screen-only{
+    @media (max-width: $breakpoint-xs-max){
+      display: block}
+    @media (min-width: $breakpoint-sm-min){
+      display: none}
+    }
+ 
+.large-screen-only{
+    @media (max-width: $breakpoint-xs-max){
+      display: none}
+    @media (min-width: $breakpoint-xl-min){
+      display: block}
+    }
+.constrain{
+    max-width:975px;
+    margin: 0 auto
+}
+
+.toolbar-title{
+    @media (max-width: $breakpoint-xs-max){
+      text-align: center}
+    }
+.toolbar-size{@media (min-width: $breakpoint-xs-max){
+    height:70px}}
+
+.constrain-more{
+      max-width:600px;
+      margin: 0 auto
+  }
+
+.camera-frame {
+  border: 2px solid $grey-10;
+  border-radius: 10px
+}
