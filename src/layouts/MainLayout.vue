@@ -17,7 +17,7 @@
              vertical
              spaced />
         <q-toolbar-title class="text-grand-hotel text-bold toolbar-title">
-          Quasargram
+          Quasargra
         </q-toolbar-title>
         <q-btn 
          class="large-screen-only"
